@@ -12,8 +12,6 @@ public class User {
     private Date createDate;
     private Date lastLogicDate;
 
-    //New changes Added in the User Class
-
 
     public User(int userId, String username, String email, String password, String address, String role, Date createDate, Date lastLogicDate) {
         this.userId = userId;
